@@ -8,6 +8,7 @@ import { DirectivasDemoComponent } from './ejemplos/directivas-demo/directivas-d
 import { FlexlayoutDemoComponent } from './ejemplos/flexlayout-demo/flexlayout-demo.component';
 import { PrincipalComponent } from './ejemplos/principal/principal.component';
 import { PaginaErrorComponent } from './ejemplos/pagina-error/pagina-error.component';
+import { MaterialModule } from './angular-material/material.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PaginaErrorComponent } from './ejemplos/pagina-error/pagina-error.compo
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
